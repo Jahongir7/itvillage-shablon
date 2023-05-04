@@ -34,38 +34,38 @@ const Header = () => {
               Bosh sahifa
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/agency"
+              className={activeLink == "/agency" ? "activeLink" : "none"}
             >
               Biz haqimizda
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/team"
+              className={activeLink == "/team" ? "activeLink" : "none"}
             >
               Jamoa
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/services"
+              className={activeLink == "/services" ? "activeLink" : "none"}
             >
               Xizmatlar
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/showcase"
+              className={activeLink == "/showcase" ? "activeLink" : "none"}
             >
               Portfolio
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/blogs"
+              className={activeLink == "/blogs" ? "activeLink" : "none"}
             >
               Blog
             </Link>
             <Link
-              href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              href="/contact"
+              className={activeLink == "/contact" ? "activeLink" : "none"}
             >
               Bog'lanish
             </Link>
