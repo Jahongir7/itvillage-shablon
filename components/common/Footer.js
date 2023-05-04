@@ -1,102 +1,104 @@
-import Link from "next/link"
-import { TitleLogo } from "./Title"
-import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import Link from "next/link";
+import { TitleLogo } from "./Title";
+import { BsFacebook } from "react-icons/bs";
+import {
+  AiFillBehanceCircle,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='container'>
-          <div className='grid-4'>
-            <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+        <div className="container">
+          <div className="grid-4">
+            <div className="logo">
+              <TitleLogo title="IT_Village" caption="" className="logobg" />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Agar savol tug'ilsa <br /> Dushanbadan – Jumagacha 09:00 dan
+                18:00 gacha murojat qilishingiz mumkin
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+(998)94-312-77-74</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className="button-primary">Konsultatsiya olish</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>UMUMIY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href="/">Biz haqimizda</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href="/">Jamoa</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href="/">Portfolio</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href="/">Blog</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
-              </li>
-              <li>
-                <Link href='/'>Contact</Link>
+                <Link href="/">Biz bilan bog'lanish</Link>
               </li>
             </ul>
             <ul>
-              <h3>SERVICES</h3>
+              <h3>XIZMATLAR</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href="/">Mukammal platformalarni yaratish</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href="/">Raqamli marketing</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href="/">B2B</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href="/">E-Commerce</Link>
               </li>
             </ul>
             <ul>
-              <h3>CONNECT</h3>
-              <div className='connect'>
+              <h3>ALOQA</h3>
+              <div className="connect">
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillBehanceCircle size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
               </div>
             </ul>
           </div>
-          <div className='legal connect py'>
-            <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+          <div className="legal connect py">
+            <div className="text">
+              <span>© 2023 BARCHA HUQUQLAR HIMOYALANGAN.</span>
             </div>
-            <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+            <div className="connect">
               <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span>IT_VILLAGE</span>
+              <span> &nbsp; | &nbsp; </span>
             </div>
           </div>
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

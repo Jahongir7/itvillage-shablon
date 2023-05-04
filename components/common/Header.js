@@ -4,12 +4,10 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { RiMenu4Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
-import useWindowDimensions from "../screenSize";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
-  const { width } = useWindowDimensions();
   const router = useRouter();
   useEffect(() => {
     setActiveLink(router.pathname);
@@ -34,50 +32,46 @@ const Header = () => {
               Bosh sahifa
             </Link>
             <Link
-              href="/agency"
+              href="/"
               className={activeLink == "/agency" ? "activeLink" : "none"}
             >
               Biz haqimizda
             </Link>
             <Link
-              href="/team"
+              href="/"
               className={activeLink == "/team" ? "activeLink" : "none"}
             >
               Jamoa
             </Link>
             <Link
-              href="/services"
+              href="/"
               className={activeLink == "/services" ? "activeLink" : "none"}
             >
               Xizmatlar
             </Link>
             <Link
-              href="/showcase"
+              href="/"
               className={activeLink == "/showcase" ? "activeLink" : "none"}
             >
               Portfolio
             </Link>
             <Link
-              href="/blogs"
+              href="/"
               className={activeLink == "/blogs" ? "activeLink" : "none"}
             >
               Blog
             </Link>
             <Link
-              href="/contact"
+              href="/"
               className={activeLink == "/contact" ? "activeLink" : "none"}
             >
               Bog'lanish
             </Link>
             <button className="button-primary">Konsultatsiya olish</button>
           </nav>
-          {width < 880 ? (
-            <button onClick={() => setOpen(!open)}>
-              {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
-            </button>
-          ) : (
-            ""
-          )}
+          <button onClick={() => setOpen(!open)}>
+            {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
+          </button>
         </div>
       </header>
     </>
