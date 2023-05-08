@@ -4,21 +4,26 @@ import Expertise from "@/components/Expertise";
 import ShowCase from "@/components/ShowCase";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
+import { useWindowSize } from "@/components/screenSize";
 import React from "react";
 
 const Hero = () => {
+  const size = useWindowSize();
   return (
     <>
       <section className="hero">
         <div className="container">
           <TitleLogo title="IT-Village" caption="" className="logobg" />
           <div className="hero-title">KUCHLI KADRLARGA EGA AKADEMIYA</div>
-
-          <div className="sub-heading">
-            <TitleSm title="VEBSAYT" /> <span>.</span>
-            <TitleSm title="MOBIL ILOVALAR" /> <span>.</span>
-            <TitleSm title="RAQAMLI MARKETING" />
-          </div>
+          {size.width && size.width > 660 ? (
+            <div className="sub-heading">
+              <TitleSm title="VEBSAYT" /> <span>.</span>
+              <TitleSm title="MOBIL ILOVALAR" /> <span>.</span>
+              <TitleSm title="SMM" />
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </section>
       <section className="hero-sec">
