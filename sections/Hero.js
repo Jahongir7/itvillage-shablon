@@ -12,7 +12,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <TitleLogo title="IT-Village" caption="" className="logobg" />
-          <h1 className="hero-title">KUCHLI KADRLARGA EGA AKADEMIYA</h1>
+          <div className="hero-title">KUCHLI KADRLARGA EGA AKADEMIYA</div>
 
           <div className="sub-heading">
             <TitleSm title="VEBSAYT" /> <span>.</span>
