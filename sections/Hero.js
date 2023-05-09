@@ -52,9 +52,9 @@ const Hero = () => {
       <Testimonial />
       <ShowCase />
 
-      <div className="text-center">
+      {/* <div className="text-center">
         <Title title="So'ngi yangilik va maqolalar" />
-      </div>
+      </div> */}
     </>
   );
 };
