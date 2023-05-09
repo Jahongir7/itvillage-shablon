@@ -104,22 +104,18 @@ export const showcase = [
     title: "Xorazmipagi.uz",
     cover: "../images/p1.jpg",
     catgeory: "VEBSAYT",
-    link: "https://xorazmipagi.uz",
   },
   {
     id: 2,
     title: "YaTaxi",
     catgeory: "ANDROID",
     cover: "../images/p2.jpg",
-    link: "https://xorazmipagi.uz",
   },
   {
     id: 3,
     title: "Binary University",
     cover: "../images/p3.png",
     catgeory: "SMM",
-
-    link: "https://xorazmipagi.uz",
   },
 ];
 export const brand = [
