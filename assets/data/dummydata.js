@@ -24,8 +24,8 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
-    cover: "../images/e1.jpg",
+    title: "Veb-ilova & Platformalar",
+    cover: "../images/web-c.png",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -36,8 +36,8 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
-    cover: "../images/e2.jpg",
+    title: "Raqamli marketing",
+    cover: "../images/smm2.png",
     desc: [
       { text: "Social media marketing" },
       { text: "Marketing campaigns" },
@@ -48,7 +48,7 @@ export const expertise = [
   {
     id: 3,
     title: "E-Commerce",
-    cover: "../images/e3.jpg",
+    cover: "../images/e-commer.png",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -58,8 +58,9 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
+    title: "Android & IOS ilovalar",
+    cover:
+      "https://img.freepik.com/premium-psd/user-interface-mockup_336574-12.jpg?w=740",
     desc: [
       { text: "Visual identity" },
       { text: "Branding for social media" },
@@ -70,16 +71,16 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
+    name: "Sirojiddin",
+    cover: "../images/pic2(2).jpg",
+    post: "XorazmIpagi - Dizayner",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
     name: "Diana Green",
-    cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
+    cover: "../images/pic4(1).jpg",
+    post: "Mitra - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
@@ -100,39 +101,25 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    title: "Xorazmipagi.uz",
+    cover: "../images/p1.jpg",
+    catgeory: "VEBSAYT",
+    link: "https://xorazmipagi.uz",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    title: "YaTaxi",
+    catgeory: "ANDROID",
+    cover: "../images/p2.jpg",
+    link: "https://xorazmipagi.uz",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
-  },
-  {
-    id: 4,
-    title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
-  },
-  {
-    id: 6,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    title: "Binary University",
+    cover: "../images/p3.png",
+    catgeory: "SMM",
+
+    link: "https://xorazmipagi.uz",
   },
 ];
 export const brand = [

@@ -32,7 +32,7 @@ const Hero = () => {
             <Title title="O'z biznesingizni biz bilan rivojlantiring" />
             <p>
               USAID tashkiloti bilan "Mitra Travel" firmasi hamkorligida
-              yoshlarga 4 ta yo'nalishida ta'lim berib kelinmoqda. Bular
+              yoshlarga 4 ta yo'nalishda ta'lim berib kelinmoqda. Bular
               "JavaScript", "Python", "Android" va "SMM" yo'nalishlari.
             </p>
           </div>
