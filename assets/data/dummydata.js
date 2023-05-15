@@ -121,15 +121,16 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover:
+      "https://seeklogo.com/images/U/USAID-logo-D98B06D211-seeklogo.com.png",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "https://xorazmipagi.uz/assets/logo/khorezm%20silk%20logo.png",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "https://onkologiyaxorazm.uz/static/media/cc.842d724a.png",
   },
   {
     id: 4,
@@ -178,50 +179,26 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    title: "JAHONGIR KHUJAMURATOV ",
+    cover: "../images/jahongir.jpg",
+    post: "FRONTEND DEVELOPER",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    title: "ZAFARBEK KAMULJONOV",
+    cover: "../images/pic5.jpg",
+    post: "BACKEND DEVELOPER",
   },
   {
     id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    title: "OG'ABEK KAZAKOV",
+    cover: "../images/pic5.jpg",
+    post: "SMM",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
-  },
-  {
-    id: 5,
-    title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
-  },
-  {
-    id: 6,
-    title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
-  },
-  {
-    id: 7,
-    title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
-  },
-  {
-    id: 8,
-    title: "Join our team!",
-    cover: "../images/t8.jpg",
-    post: "",
+    title: "FURQATBEK AMINOV",
+    cover: "../images/pic5.jpg",
+    post: "ANDROID DEVELOPER",
   },
 ];
