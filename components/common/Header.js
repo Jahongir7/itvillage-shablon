@@ -61,7 +61,9 @@ const Header = () => {
             >
               Bog'lanish
             </Link>
-            <button className="button-primary">Konsultatsiya olish</button>
+            <a className="button-primary" href="tel:+998972213457">
+              Konsultatsiya olish
+            </a>
           </nav>
           <button onClick={() => setOpen(!open)}>
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
