@@ -25,6 +25,7 @@ const Header = () => {
             className={open ? "openMenu" : "closeMenu"}
             onClick={() => setOpen(null)}
           >
+            <div>
             <Link
               href="/"
               className={activeLink == "/" ? "activeLink" : "none"}
@@ -61,6 +62,7 @@ const Header = () => {
             >
               Bog'lanish
             </Link>
+            </div>
             <a className="button-primary" href="tel:+998972213457">
               Konsultatsiya olish
             </a>

@@ -231,11 +231,13 @@ footer {
     h1 {
       font-size: $xl-6;
     }
+    
     .box {
       h1 {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 400;
       }
+      
     }
     .misson-p {
       border-left: 5px solid $indigo;
@@ -256,7 +258,8 @@ footer {
 //contact
 .contact {
   .left {
-    padding-right: 60px;
+    padding-right: 20px;
+    
     ul {
       @include flex(center, space-between, none);
       margin-top: $xll;
@@ -283,7 +286,7 @@ footer {
   }
   .right {
     border-radius: 50px 0 50px 0;
-    padding: $xll;
+    padding: $xl-6;
     background-color: #171e20;
     form {
       margin-top: $xll;
@@ -314,6 +317,16 @@ footer {
   .heading-title {
     .desc {
       text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 450px){
+  .agency{
+    .content{
+      .grid-3{
+        grid-template-columns: repeat(1, 1fr);
+      }
     }
   }
 }
@@ -366,6 +379,7 @@ footer {
       .left {
         text-align: center;
         margin-bottom: 50px;
+        padding: 0 60px;
         ul {
           display: flex;
           justify-content: center;

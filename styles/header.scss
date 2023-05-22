@@ -8,6 +8,13 @@ header {
   .container {
     @include flex(center, space-between, none);
     nav {
+      padding: 20px 0;
+       display: flex;
+       align-items: center;
+       div{
+        display: flex;
+        flex-wrap: wrap;
+       }
       a {
         margin: 0 $xl-2;
       }
@@ -20,7 +27,7 @@ header {
   &::after {
     content: "";
     position: absolute;
-    top: 48px;
+    top: 20px;
     left: 0;
     width: 100%;
     height: 2px;
@@ -28,8 +35,21 @@ header {
   }
 }
 
+@media screen and (max-width: 1200px){
+  header{
+    nav{
+      padding: 10px 0;
+      a{
+        margin-top: $sm;
+      }
+    }
+
+  }
+}
+
 @media screen and (max-width: 800px) {
   header {
+    .container{
     nav {
       display: none;
     }
@@ -38,17 +58,21 @@ header {
       top: 75px;
       left: 0;
       width: 100%;
-      height: 40vh;
-      padding: 20px;
+      height: 70vh;
+      padding: 10px;
       background: $dark;
       display: flex;
       flex-direction: column;
       z-index: 999;
       a {
-        width: 100%;
+        width: 90%;
         display: block;
         display: flex;
-        margin-bottom: 30px !important;
+        margin-bottom: 20px !important;
+      }
+      .button-primary{
+        padding: 10px 20px;
+        width: 50%;
       }
     }
     .button-primary {
@@ -60,4 +84,5 @@ header {
       display: none;
     }
   }
+}
 }

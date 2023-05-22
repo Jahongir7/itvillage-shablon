@@ -38,9 +38,9 @@
 .button-primary {
   text-transform: capitalize;
   color: $dark;
-  padding: 13px 40px;
+  padding: 10px 30px;
   background-color: $green;
-  font-size: $md;
+  font-size: $sm;
   border-radius: 50px;
   box-shadow: $shadow-md;
   cursor: pointer;
@@ -154,5 +154,14 @@
   .heading-title {
     max-width: 100%;
     padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title-bg{
+    font-size: 30px;
+  }
+  .heading-title{
+    padding: 0;
   }
 }
