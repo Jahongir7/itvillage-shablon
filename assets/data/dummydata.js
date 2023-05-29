@@ -201,7 +201,8 @@ export const teamdata = [
   {
     id: 4,
     title: "FURQATBEK AMINOV",
-    cover: "../images/pic5.jpg",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685385928/fourcade_omoekw.jpg",
     post: "ANDROID DEVELOPER",
   },
 ];
