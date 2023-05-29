@@ -125,24 +125,17 @@ export const brand = [
       "https://seeklogo.com/images/U/USAID-logo-D98B06D211-seeklogo.com.png",
   },
   {
-    id: 2,
-    cover: "https://xorazmipagi.uz/assets/logo/khorezm%20silk%20logo.png",
-  },
-  {
-    id: 3,
-    cover: "https://onkologiyaxorazm.uz/static/media/cc.842d724a.png",
-  },
-  {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "https://mitratravel.uz/images/logo128-2.png",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "https://logobank.uz:8005/media/logos_png/IT_park-01.png",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685378962/a1_ajynf8.png",
   },
 ];
 export const blogdata = [
@@ -186,14 +179,24 @@ export const teamdata = [
   {
     id: 2,
     title: "ZAFARBEK KAMULJONOV",
-    cover: "../images/pic5.jpg",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685379372/kamuljanov_xo2aul.jpg",
     post: "BACKEND DEVELOPER",
   },
   {
     id: 3,
     title: "OG'ABEK KAZAKOV",
-    cover: "../images/pic5.jpg",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685381542/Screenshot_from_2023-05-29_22-31-00_ycnt2y.png",
     post: "SMM",
+  },
+
+  {
+    id: 77,
+    title: "IBRATBEK OTABOYEV",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685381316/Screenshot_from_2023-05-29_22-28-13_c3sesi.png",
+    post: "MANAGER",
   },
   {
     id: 4,
