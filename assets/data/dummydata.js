@@ -101,8 +101,9 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Xorazmipagi.uz",
-    cover: "../images/p1.jpg",
+    title: "Uyer.uz",
+    cover:
+      "https://res.cloudinary.com/urganish/image/upload/v1685386156/uyer_hmk1qk.jpg",
     catgeory: "VEBSAYT",
   },
   {
