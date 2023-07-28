@@ -28,17 +28,17 @@ const Agency = () => {
                 dignissim, sem eget sollicitudin tempor, libero velit aliquam
                 enim, vel egestas tortor ante quis sem.
               </p>
-              <div className="grid-3">
+              <div className=" grid-3">
                 <div className="box">
-                  <h1 className="indigo">1+</h1>
+                  <h1 className="indigo text-center">1+</h1>
                   <h3>Tajribamiz yillarda</h3>
                 </div>
                 <div className="box">
-                  <h1 className="indigo">10+</h1>
+                  <h1 className="indigo text-center">10+</h1>
                   <h3>Muvaffaqiyatli loyihalar</h3>
                 </div>
                 <div className="box">
-                  <h1 className="indigo">5+</h1>
+                  <h1 className="indigo text-center">5+</h1>
                   <h3>Doimiy mijozlarimiz</h3>
                 </div>
               </div>
